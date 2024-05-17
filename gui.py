@@ -155,13 +155,6 @@ root.title("Number Printer")
 label = tk.Label(root, font=("Helvetica", 48))
 label.pack(padx=20, pady=20)
 
-# Open the animated GIF with PIL
-gif = PhotoImage(file="C:/Users/Abinash/Documents/Python/VISION/vision.gif")
-
-# Display the animated GIF in a label
-gif_label = tk.Label(root, image=gif)
-gif_label.pack(padx=20, pady=20)
-
 
 
 # Create a scrolled text widget to display the history of printed numbers
